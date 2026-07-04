@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexandre Albuini Junior — Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-row">
+        <span class="brand-mark" aria-hidden="true">AA</span>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#extras">Extras</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <div class="avatar">
+          <img src="foto/alexandre.jpg" alt="Alexandre Albuini Junior">
+        </div>
+        <p class="kicker"> Autônomo &amp; futuro Analista de QA</p>
+        <h1>Alexandre<br>Albuini Junior</h1>
+        <p class="tagline">Um jovem que gosta de quebrar peças de carro e linhas de códigos.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-body">
+    <main>
+
+      <section id="sobre" class="sheet">
+        <h2>Sobre mim</h2>
+        <div class="sheet-body">
+          <p>Seja bem vindo, me chamo Alexandre e tenho 20 anos, sou um entusiasta do mundo automotivo e na area de tecnologia,
+            juntamente sou muito ligado em áreas da aviação e náutica, princiapamente se for referente a área militar.</p>
+          <p>Tenho um conhecimento intermediário em Front-end, o suficiente para transformar ideias em interfaces
+             funcionais utilizando HTML, CSS e JavaScript. Atualmente, venho me aprofundando em <strong>Java</strong> e <strong>Spring Boot</strong>,  
+             com foco em construção de Full Stack e atuação na área de <strong>QA</strong> (Quality Assurance).</p>
+
+           <p> Tenho interesse em entender o funcionamento das coisas além da superfície, seja em uma aplicação web ou em um motor. 
+             Essa curiosidade também alimenta minha paixão por carros e pelos projetos automotivos que venho desenvolvendo, onde 
+             aplico na prática o mesmo princípio de análise, melhoria e evolução contínua.</p>
+        </div>
+      </section>
+
+      <section id="habilidades" class="sheet">
+        <h2>Habilidades</h2>
+        <div class="sheet-body">
+          <table class="spec-sheet">
+            <caption class="visually-hidden">Ficha técnica de habilidades</caption>
+            <tbody>
+              <tr>
+                <td class="spec-name">HTML5</td>
+                <td class="spec-bar"><span style="--level:65%"></span></td>
+                <td class="spec-level">Médio</td>
+              </tr>
+              <tr>
+                <td class="spec-name">CSS3</td>
+                <td class="spec-bar"><span style="--level:70%"></span></td>
+                <td class="spec-level">Médio</td>
+              </tr>
+              <tr>
+                <td class="spec-name">JavaScript</td>
+                <td class="spec-bar"><span style="--level:58%"></span></td>
+                <td class="spec-level">Básico/Médio</td>
+              </tr>
+              <tr>
+                <td class="spec-name">Java</td>
+                <td class="spec-bar"><span style="--level:42%"></span></td>
+                <td class="spec-level">Em estudo</td>
+              </tr>
+              <tr>
+                <td class="spec-name">Spring Boot</td>
+                <td class="spec-bar"><span style="--level:50%"></span></td>
+                <td class="spec-level">Em estudo</td>
+              </tr>
+              <tr>
+                <td class="spec-name">Testes &amp; QA</td>
+                <td class="spec-bar"><span style="--level:41%"></span></td>
+                <td class="spec-level">Em formação</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="projetos" class="sheet">
+        <h2>Projetos</h2>
+        <div class="sheet-body">
+          <div class="projects-grid">
+
+            <article class="project-card">
+              <div class="project-card-top">
+                <p class="project-model">Setup Garagem</p>
+                <span class="status-badge status-paused">Em pausa</span>
+              </div>
+              <p>Site pessoal sobre meus projetos de carros, reunindo setups e modificações realizadas.
+                A ideia é evoluir para uma lojinha integrada com links de afiliados no futuro.
+                Atualmente temporariamente fora do ar.</p>
+              <ul class="tech-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+              </ul>
+              <span class="project-link project-link-disabled">Site em pausa</span>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card-top">
+                <p class="project-model">Painel Financeiro</p>
+                <span class="status-badge status-private">Uso pessoal</span>
+              </div>
+              <p>Painel para controle dos meus investimentos e gastos particulares. Feito para uso próprio,
+                sem intenção de divulgação pública — mas mostra bem como estruturo uma interface do zero.</p>
+              <ul class="tech-list">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <span class="project-link project-link-disabled">Projeto privado</span>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <aside id="extras" class="sheet aside-sheet">
+        <h2>Informações extras</h2>
+        <div class="sheet-body">
+          <p>Gosto de colocar a mão na massa tanto no código quanto na garagem, meus projetos de carros são meu principal hobby
+             fora do teclado. Sempre estou envolvido em algum aprendizado novo, seja uma tecnologia que estou estudando 
+             no desenvolvimento ou uma peça diferente que quero testar em algum projeto automotivo.</p>
+           <p>Estou constantemente buscando evolução, alternando entre o mundo da programação e o universo automotivo, onde cada 
+            ajuste, seja em um código ou em um motor, vira uma oportunidade de aprendizado e melhoria.</p>
+          <ul class="link-list">
+            <li><a href="https://github.com/AleAlbuini" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+            <li><a href="https://www.instagram.com/ale_albuini/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></li>
+          </ul>
+        </div>
+      </aside>
+
+    </main>
+  </div>
+
+  <footer class="site-footer" id="contato">
+    <div class="title-block">
+      <div class="title-block-row">
+        <span class="tb-label">Contato</span>
+        <a class="tb-value" href="mailto:Juniroalbuini@gmail.com">Junioralbuini@gmail.com</a>
+      </div>
+      <div class="title-block-row">
+        <span class="tb-label">Telefone</span>
+        <a class="tb-value" href="tel:+5544998362349">(44) 99836-2349</a>
+        </div>
+      <div class="title-block-row">
+        <span class="tb-label">Direitos autorais</span>
+        <span class="tb-value">© 2026 Alexandre Albuini Junior</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
